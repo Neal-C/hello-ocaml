@@ -29,6 +29,15 @@ Notes:
 
 - try via Docker
 
+clone
+
+```shell
+git clone git@github.com:Neal-C/hello-ocaml.git
+cd hello-ocaml
+```
+
+build & run
+
 ```shell
 docker build -t ocaml:hello . && docker run ocaml:hello
 ```
